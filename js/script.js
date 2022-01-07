@@ -14,8 +14,9 @@ console.log(fullName);
 
 //Question 3
 let animal = "frog";
+let typeOfAnimal = typeof animal;
 
-console.log("the type of frog is", typeof animal);
+console.log("the type of frog is " + typeOfAnimal);
 
 //Question 4
 let orderHasShipped = true;
