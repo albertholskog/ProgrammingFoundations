@@ -191,3 +191,74 @@
 // while (const < 10){
 //     count++;
 // }
+
+// let maximum = parseInt(prompt("Enter the maximum number!"));
+// while (!maximum) {
+//   maximum = parseInt(prompt("Enter the maximum number!"));
+// }
+
+// const targetNum = Math.floor(Math.random() * maximum) + 1;
+
+// let guess = parseInt(prompt("enter your first guess!"));
+// let attempts = 1;
+
+// while (guess != targetNum) {
+//   attempts++;
+//   if (guess > targetNum) {
+//     guess = parseInt(prompt("Too high! enter a new guess:"));
+//   } else {
+//     guess = parseInt(prompt("Too low! enter a new guess:"));
+//   }
+// }
+// console.log("you got it " + attempts "guesses");
+
+// for of loop
+
+// const airplaneSeats = ["Ruth", "Anthony", "Stevie"];
+
+// for (let sub of airplaneSeats) {
+//   console.log(sub);
+// }
+
+// for (let char of "hallo world") {
+//   console.log(char);
+// }
+
+// const testScores = {
+//   keenan: 15,
+//   damon: 55,
+//   kim: 66,
+//   nadia: 45,
+// };
+// for (let person in testScores) {
+//   console.log(`${person} scored ${testScores[person]}`);
+// }
+
+// function
+
+// function singSong() {
+//   console.log("do");
+//   console.log("re");
+//   console.log("mi");
+// }
+// singSong();
+
+// function greet(firstName) {
+//   console.log(`Hey there, ${firstName}!`);
+// }
+// greet("albert".toUpperCase());
+
+// function rant(message) {
+//   console.log(message);
+//   console.log(message);
+//   console.log(message);
+// }
+// rant("I hate beets".toUpperCase());
+
+// function repeat(str, numTimes) {
+//   let result = "";
+//   for (let i = 0; i < numTimes; i++) {
+//     result += str;
+//   }
+//   console.log(result);
+// }
